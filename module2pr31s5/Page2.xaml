@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="module2pr31s5.Page2" BackgroundColor="#32B898">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Вычисления" BackgroundColor="#4A799A" Clicked="navig2" WidthRequest="138" HeightRequest="40"/>
+            <Image Source="Pngtree.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="350"/>
+            <Entry Text="Имя пользователя" FontSize="20" WidthRequest="300" BackgroundColor="White" HorizontalOptions="Center" Margin="10" />
+            <Entry Text="Пароль" FontSize="20" WidthRequest="300" BackgroundColor="White" HorizontalOptions="Center" Margin="5" />
+            <Button Text="Вход" BackgroundColor="#4A799A" HorizontalOptions="Center" Clicked="SignUp" WidthRequest="138" HeightRequest="50" Margin="40,40"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

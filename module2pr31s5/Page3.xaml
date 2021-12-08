@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="module2pr31s5.Page3" BackgroundColor="#32B898">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Конвертер систем счисления" TextColor="White" FontSize="20" HorizontalOptions="Center" VerticalOptions="Start"/>
+            <Entry Text="Введите число" FontSize="20" WidthRequest="300" BackgroundColor="White" HorizontalOptions="Center" Margin="10,150" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
